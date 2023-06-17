@@ -3,11 +3,12 @@ const {createApp} = Vue;
 createApp({
     data(){
         return{
-            random_mail: '',
-            array_mail:[]
+            array_mail:[],
+            
         }
     },
     mounted(){
+        
         
     },
     methods: {

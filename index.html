@@ -13,7 +13,7 @@
 
         <button @click="generate_ten_mail">Genera 10 e-mail casuali</button>
         
-        <ul>
+        <ul v-if="array_mail.length == 10">
             <li v-for="x in array_mail"> {{ x }}</li>
         </ul>
 
