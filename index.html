@@ -11,8 +11,11 @@
     <div id="app">
 
 
-        <p>e-mail : <span>{{random_mail}}</span></p>
+        <button @click="generate_ten_mail">Genera 10 e-mail casuali</button>
         
+        <ul>
+            <li v-for="x in array_mail"> {{ x }}</li>
+        </ul>
 
 
 
